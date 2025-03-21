@@ -149,11 +149,6 @@ function findSchedule() {
                                     </div>
 
                                     <div class="detail-group">
-                                        <div class="detail-label">Venue</div>
-                                        <div class="detail-value">${exam.venue}</div>
-                                    </div>
-
-                                    <div class="detail-group">
                                         <div class="detail-label">Exam Hall</div>
                                         <div class="detail-value">${exam.center}</div>
                                     </div>
