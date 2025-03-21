@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UG Exam Schedule Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Background effects -->
+<div class="gradient-base"></div>
+<div class="purple-glow"></div>
+<div class="blue-glow"></div>
+<div class="vignette"></div>
+
+<div class="container">
+    <div class="page-header">
+        <div class="exam-title">DISTANCE EDUCATION EXAMINATIONS<br>FIRST SEMESTER 2024/2025</div>
+    </div>
+
+    <h1>Find Your Exam Schedule</h1>
+
+    <div class="search-container">
+        <input type="text" id="studentId" placeholder="Enter your Student ID (e.g., 22144124)">
+        <button onclick="findSchedule()">Find My Exams</button>
+    </div>
+
+    <div class="valid-id-range">Valid ID Range: 11253205 - 22261297</div>
+
+    <div id="scheduleDisplay"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
