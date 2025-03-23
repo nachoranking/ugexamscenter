@@ -33,7 +33,7 @@ function findSchedule() {
     scheduleDisplay.innerHTML = `
         <div class="no-results">
             <h3>No exams schedule at the moment.</h3>
-            <p>Schedule will be available before 29th March 2024.</p>
+            <p>Schedule will be available before 29th March 2025.</p>
             <h4> Upcomming Exams </h4>
               <p>DCIT 201 - 30th March 2025</p>
               <p>DCIT 209 - 5th April 2025</p>
