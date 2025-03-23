@@ -345,4 +345,6 @@ button:hover {
     .paper-title, .course-name, .id-range {
         grid-column: span 1;
     }
-}
+}   
+
+
