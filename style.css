@@ -345,6 +345,85 @@ button:hover {
     .paper-title, .course-name, .id-range {
         grid-column: span 1;
     }
-}   
+}
 
+.exam-hall-dropdown {
+    position: relative;
+    cursor: pointer;
+    z-index: 20; /* Ensure it's above other elements */
+}
 
+.exam-hall-dropdown::after {
+    content: '▼';
+    font-size: 0.7rem;
+    margin-left: 8px;
+    color: var(--text-secondary);
+}
+
+.map-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--card-bg);
+    border: 1px solid var(--input-border);
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    z-index: 30;
+    padding: 8px;
+    margin-top: 8px;
+    min-width: 200px;
+    overflow: visible;
+}
+
+.exam-details {
+    position: relative;
+    overflow: visible;
+}
+
+.map-links.show {
+    display: block;
+}
+
+.map-links button {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    text-align: left;
+    background-color: transparent;
+    color: var(--text-primary);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.map-links button:hover {
+    background-color: var(--header-bg);
+    color: var(--accent-color);
+}
+
+.exam-card {
+    overflow: visible !important;
+    position: relative;
+}
+
+.exam-details {
+    overflow: visible !important;
+    position: relative;
+}
+
+.exam-hall-dropdown {
+    position: relative;
+    z-index: 10;
+}
+
+.map-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    z-index: 20;
+    transform: translateY(10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
