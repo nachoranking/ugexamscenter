@@ -1,106 +1,45 @@
 const examData = [
     {
-        "center": "UGCS LAB 4A",
-        "time": "10:30 A.M - 11:30 A.M",
+        "center": "BALME - KNOWLEDGE COMMONS",
+        "time": "4:30 P.M - 5:30 PM",
         "level": "LEVEL 200",
-        "courseCode": "DCIT201",
-        "paperTitle": "PROGRAMMING I",
-        "idRangeStart": 11253205,
-        "idRangeEnd": 22036410,
-        "date": "March 30, 2025",
-        "day": "Sunday",
-        "session": "MID-MORNING SESSION 10:30 A.M - 11:30 A.M",
-        "studentsAllocated": 30,
+        "courseCode": "DCIT209",
+        "paperTitle": "E-BUSINESS ARCHITECTURES",
+        "idRangeStart": 10953391,
+        "idRangeEnd": 22238344,
+        "date": "April 5, 2025",
+        "day": "Saturday",
+        "session": "AFTERNOON SESSION 4:30 P.M - 5:30 PM",
+        "studentsAllocated": 104,
         "location": {
-            "latitude": 5.6475321,
-            "longitude": -0.1869869,
-            "name": "UGCS Lab 4A, University of Ghana",
-            "address": "UGCS Lab 4A, University of Ghana, Legon, Accra, Ghana",
-            "googleMapsLink": "https://maps.app.goo.gl/78vKWL8A9ZsZz8qB9"
+            "latitude": 5.6507,
+            "longitude": -0.1863,
+            "name": "Balme Library Knowledge Commons, University of Ghana",
+            "address": "Balme Library, University of Ghana, Legon, Accra, Ghana",
+            "googleMapsLink": "https://maps.app.goo.gl/jTMnKHo7ehVUsTz87"
         }
     },
     {
-        "center": "UGCS LAB 4B",
-        "time": "10:30 A.M - 11:30 A.M",
+        "center": "BALME - IAC TRAINING LAB",
+        "time": "4:30 P.M - 5:30 PM",
         "level": "LEVEL 200",
-        "courseCode": "DCIT201",
-        "paperTitle": "PROGRAMMING I",
-        "idRangeStart": 22036904,
-        "idRangeEnd": 22102174,
-        "date": "March 30, 2025",
-        "day": "Sunday",
-        "session": "MID-MORNING SESSION 10:30 A.M - 11:30 A.M",
-        "studentsAllocated": 30,
-        "location": {
-            "latitude": 5.6476541,
-            "longitude": -0.1871234,
-            "name": "UGCS Lab 4B, University of Ghana",
-            "address": "UGCS Lab 4B, University of Ghana, Legon, Accra, Ghana",
-            "googleMapsLink": "https://maps.app.goo.gl/nZxHBKkdfUUjVmst7"
-        }
-    },
-    {
-        "center": "AKUAFO HALL LAB",
-        "time": "10:30 A.M - 11:30 A.M",
-        "level": "LEVEL 200",
-        "courseCode": "DCIT201",
-        "paperTitle": "PROGRAMMING I",
-        "idRangeStart": 22102729,
-        "idRangeEnd": 22187603,
-        "date": "March 30, 2025",
-        "day": "Sunday",
-        "session": "MID-MORNING SESSION 10:30 A.M - 11:30 A.M",
-        "studentsAllocated": 20,
-        "location": {
-            "latitude": 5.6481234,
-            "longitude": -0.1858672,
-            "name": "Akuafo Hall, University of Ghana",
-            "address": "Akuafo Hall, University of Ghana, Legon, Accra, Ghana",
-            "googleMapsLink": "https://maps.app.goo.gl/WHJwwaGE5UzrmfLf6"
-        }
-    },
-    {
-        "center": "GEOGRAPHY & RES. DEV. DEPT LAB 1",
-        "time": "10:30 A.M - 11:30 A.M",
-        "level": "LEVEL 200",
-        "courseCode": "DCIT201",
-        "paperTitle": "PROGRAMMING I",
-        "idRangeStart": 22187752,
-        "idRangeEnd": 22243375,
-        "date": "March 30, 2025",
-        "day": "Sunday",
-        "session": "MID-MORNING SESSION 10:30 A.M - 11:30 A.M",
-        "studentsAllocated": 20,
-        "location": {
-            "latitude": 5.6470876,
-            "longitude": -0.1867754,
-            "name": "Geography & Resource Development Department, University of Ghana",
-            "address": "Geography & Resource Development Department, University of Ghana, Legon, Accra, Ghana",
-            "googleMapsLink": "https://maps.app.goo.gl/NoqCyZPDKDxMPWVA7"
-        }
-    },
-    {
-        "center": "COE - SCDE COMPUTER LAB",
-        "time": "10:30 A.M - 11:30 A.M",
-        "level": "LEVEL 200",
-        "courseCode": "DCIT201",
-        "paperTitle": "PROGRAMMING I",
-        "idRangeStart": 22243673,
+        "courseCode": "DCIT209",
+        "paperTitle": "E-BUSINESS ARCHITECTURES",
+        "idRangeStart": 22238895,
         "idRangeEnd": 22261297,
-        "date": "March 30, 2025",
-        "day": "Sunday",
-        "session": "MID-MORNING SESSION 10:30 A.M - 11:30 A.M",
-        "studentsAllocated": 18,
+        "date": "April 5, 2025",
+        "day": "Saturday",
+        "session": "AFTERNOON SESSION 4:30 P.M - 5:30 PM",
+        "studentsAllocated": 25,
         "location": {
-            "latitude": 5.6478123,
-            "longitude": -0.1864432,
-            "name": "College of Education SCDE Computer Lab, University of Ghana",
-            "address": "College of Education SCDE Computer Lab, University of Ghana, Legon, Accra, Ghana",
-            "googleMapsLink": "https://maps.app.goo.gl/R2t24X3Q9HVkDWuV6"
+            "latitude": 5.6505,
+            "longitude": -0.1865,
+            "name": "Balme Library IAC Training Lab, University of Ghana",
+            "address": "Balme Library, University of Ghana, Legon, Accra, Ghana",
+            "googleMapsLink": "https://maps.app.goo.gl/jTMnKHo7ehVUsTz87"
         }
     }
 ];
-
 
 function createMapLinks(location) {
     return {
@@ -122,12 +61,12 @@ function findSchedule() {
     if (isNaN(studentId)) {
         // Handle invalid input
         scheduleDisplay.innerHTML = `
-            <div class="no-results">
-                <h3>Invalid Student ID</h3>
-                <p>Please enter a valid numeric Student ID.</p>
-                <p>Example: 22144124</p>
-            </div>
-        `;
+                    <div class="no-results">
+                        <h3>Invalid Student ID</h3>
+                        <p>Please enter a valid numeric Student ID.</p>
+                        <p>Example: 22144124</p>
+                    </div>
+                `;
         scheduleDisplay.classList.add('visible');
         return;
     }
@@ -147,66 +86,67 @@ function findSchedule() {
                 const mapLinks = createMapLinks(exam.location);
 
                 scheduleHTML += `
-                    <div class="exam-card">
-                        <div class="exam-card-header">
-                            <div class="exam-date">${exam.day}, ${exam.date}</div>
-                            <div class="exam-session">${exam.session}</div>
-                        </div>
+                            <div class="exam-card">
+                                <div class="exam-card-header">
+                                    <div class="exam-date">${exam.day}, ${exam.date}</div>
+                                    <div class="exam-session">${exam.session}</div>
+                                </div>
 
-                        <div class="paper-title">${exam.paperTitle}</div>
+                                <div class="paper-title">${exam.paperTitle}</div>
 
-                        <div class="exam-details">
-                            <div class="detail-group">
-                                <div class="detail-label">Course Code</div>
-                                <div class="detail-value">${exam.courseCode}</div>
-                            </div>
+                                <div class="exam-details">
+                                    <div class="detail-group">
+                                        <div class="detail-label">Course Code</div>
+                                        <div class="detail-value">${exam.courseCode}</div>
+                                    </div>
 
-                            <div class="detail-group">
-                                <div class="detail-label">Level</div>
-                                <div class="detail-value">${exam.level}</div>
-                            </div>
+                                    <div class="detail-group">
+                                        <div class="detail-label">Level</div>
+                                        <div class="detail-value">${exam.level}</div>
+                                    </div>
 
-                            <div class="detail-group">
-                                <div class="detail-label">Exam Hall</div>
-                                <div class="detail-value exam-hall-dropdown">
-                                    ${exam.center}
-                                    <div class="map-links">
-                                        <button onclick="window.open('${mapLinks.googleMaps}', '_blank')">Google Maps</button>
-                                        <button onclick="window.open('${mapLinks.googleDirections}', '_blank')">Directions</button>
-                                        <button onclick="window.open('${mapLinks.openStreetMap}', '_blank')">OpenStreetMap</button>
-                                        <button onclick="window.open('${mapLinks.appleMap}', '_blank')">Apple Maps</button>
+                                    <div class="detail-group">
+                                        <div class="detail-label">Exam Hall</div>
+                                        <div class="detail-value exam-hall-dropdown">
+                                            ${exam.center}
+                                            <div class="map-links">
+                                                <button onclick="window.open('${mapLinks.googleMaps}', '_blank')">Google Maps</button>
+                                                <button onclick="window.open('${mapLinks.googleDirections}', '_blank')">Directions</button>
+                                                <button onclick="window.open('${mapLinks.openStreetMap}', '_blank')">OpenStreetMap</button>
+                                                <button onclick="window.open('${mapLinks.appleMap}', '_blank')">Apple Maps</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="detail-group">
+                                        <div class="detail-label">Time</div>
+                                        <div class="detail-value">${exam.time}</div>
+                                    </div>
+
+                                    <div class="detail-group">
+                                        <div class="detail-label">Students Allocated</div>
+                                        <div class="detail-value">${exam.studentsAllocated}</div>
+                                    </div>
+
+                                    <div class="id-range">
+                                        Your ID <span class="id-highlight">${studentId}</span> falls within range: ${exam.idRangeStart} - ${exam.idRangeEnd}
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="detail-group">
-                                <div class="detail-label">Time</div>
-                                <div class="detail-value">${exam.time}</div>
-                            </div>
-
-                            <div class="detail-group">
-                                <div class="detail-label">Students Allocated</div>
-                                <div class="detail-value">${exam.studentsAllocated}</div>
-                            </div>
-
-                            <div class="id-range">
-                                Your ID <span class="id-highlight">${studentId}</span> falls within range: ${exam.idRangeStart} - ${exam.idRangeEnd}
-                            </div>
-                        </div>
-                    </div>
-                `;
+                        `;
             });
 
             scheduleDisplay.innerHTML = scheduleHTML;
         } else {
             // No results found
             scheduleDisplay.innerHTML = `
-                <div class="no-results">
-                    <h3>No Exams Found</h3>
-                    <p>No exams found for Student ID: ${studentId}</p>
-                    <p>Please check your ID and try again.</p>
-                </div>
-            `;
+                        <div class="no-results">
+                            <h3>No Exams Found</h3>
+                            <p>No exams found for Student ID: ${studentId}</p>
+                            <p>Please check your ID and try again.</p>
+                            <p>Valid ID ranges for DCIT209: 10953391-22238344 or 22238895-22261297</p>
+                        </div>
+                    `;
         }
 
         // Make the display visible (for animation)
@@ -221,17 +161,19 @@ document.getElementById('studentId').addEventListener('keypress', function(event
     }
 });
 
-// Optional: Add a click event to show/hide map links
+// Close dropdowns when clicking elsewhere
 document.addEventListener('click', function(event) {
-    // Close any open map links dropdowns
-    const openDropdowns = document.querySelectorAll('.map-links.show');
-    openDropdowns.forEach(dropdown => {
-        if (dropdown !== event.target.nextElementSibling) {
+    if (!event.target.classList.contains('exam-hall-dropdown') &&
+        !event.target.closest('.map-links')) {
+        const openDropdowns = document.querySelectorAll('.map-links.show');
+        openDropdowns.forEach(dropdown => {
             dropdown.classList.remove('show');
-        }
-    });
+        });
+    }
+});
 
-    // Toggle clicked dropdown
+// Toggle clicked dropdown
+document.addEventListener('click', function(event) {
     if (event.target.classList.contains('exam-hall-dropdown')) {
         const mapLinks = event.target.querySelector('.map-links');
         mapLinks.classList.toggle('show');
